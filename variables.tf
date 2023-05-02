@@ -9,12 +9,12 @@
 # prompted to enter it (or define it via config file or command line flags.)
 
 variable "prefix" {
-  description = "This prefix will be included in the name of most resources."
+  description = "sureshmohan"
 }
 
 variable "location" {
   description = "The region where the virtual network is created."
-  default     = "centralus"
+  default     = "eastus"
 }
 
 variable "address_space" {
